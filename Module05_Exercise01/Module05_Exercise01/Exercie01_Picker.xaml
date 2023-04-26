@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Module05_Exercise01.Exercie01_Picker">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Picker x:Name="PetsPicker"
+                Title="Select your favorite pet">
+                <Picker.Items>
+                    <x:String> Dog </x:String>
+                    <x:String> Cat </x:String>
+                    <x:String> Rabbit </x:String>
+                    <x:String> Bird </x:String>
+                    <x:String> Hamster </x:String>
+                    <x:String> Guinea Pigs </x:String>
+                    <x:String> Reptiles </x:String>
+                </Picker.Items>
+            </Picker>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
